@@ -31,5 +31,5 @@ const paymentFilter = new PaymentFilter();
 const specs = new AndSpecification(new BitcoinSpec(), new FixedAccountSpec());
 
 for (let p of paymentFilter.filter(payments, specs)) {
-  console.log(`* ${p.name} is paied by bitcoin`);
+  console.debug(`* ${p.name} is paied by bitcoin`);
 }
