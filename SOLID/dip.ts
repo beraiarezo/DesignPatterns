@@ -11,6 +11,8 @@ class Person {
   constructor(name: string) {
     this.name = name;
   }
+
+  getName() {}
 }
 
 type data = { from: Person; type: number; to: Person };
