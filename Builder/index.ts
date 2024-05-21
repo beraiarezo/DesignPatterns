@@ -72,7 +72,6 @@ class HtmlBuilder {
   }
 }
 
-const words = ["hello", "world"];
 let builder = Tag.create("ul");
 builder.addChildFluent("li", "foo").addChildFluent("li", "baz");
 

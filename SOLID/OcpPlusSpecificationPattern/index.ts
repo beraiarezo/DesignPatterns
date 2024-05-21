@@ -1,3 +1,5 @@
+// Open closed principle, open for extensions closed for modifications
+
 import { Payment } from "./payment";
 import { PaymentType, AccountType } from "./type";
 import { PaymentFilter } from "./filter";
