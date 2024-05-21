@@ -1,4 +1,4 @@
-// Dependency inversion principle
+// Dependency inversion principle, High level modules does not depend low level modules but both should depend on abstractions
 
 let Relationship = Object.freeze({
   parent: 0,

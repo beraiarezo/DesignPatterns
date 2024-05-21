@@ -1,4 +1,4 @@
-//
+// Liskov substutition principle, we should able to replace parent class object with subclass object
 interface Shape {
   calculateArea(): number;
 }
